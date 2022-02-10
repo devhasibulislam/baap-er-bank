@@ -8,5 +8,5 @@ document.getElementById('signup_here').addEventListener('click', function(){
 /* go to bank account */
 const goToBank = document.getElementById('go__to__bank');
 goToBank.addEventListener('click', function(){
-    window.open('banking.html');
+    window.open('banking.html', "DescriptiveWindowName", "left=0, top=0, width=1920, height=1080");
 });
